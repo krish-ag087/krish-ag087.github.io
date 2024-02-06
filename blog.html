@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Protest+Strike">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <script src="https://kit.fontawesome.com/b0ba1f3f1d.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="public.js"></script>
+<head>
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            font-family: "Proteest Strike", serif;
+        }
+
+        .article {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 2;
+            color: #555;
+            font-family: "Oswald", serif;
+        }
+        .btn{
+                background: transparent;
+                border: none;
+                font-size: 30px;
+                padding-left: 10px;
+                /* outline: none; */
+                color:black;
+            }
+        .like{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <div class="article">
+        <h2>Embracing Minimalism: A Journey to Simplify Your Life.</h2>
+        <p>
+            In a world that often glorifies excess, the concept of minimalism has emerged as a refreshing antidote, offering a pathway to a simpler and more intentional life. 
+            Embracing minimalism goes beyond decluttering physical spaces; it's a mindset that encourages us to reassess our priorities and focus on what truly matters. 
+            As we navigate the hustle and bustle of modern living, it's easy to become overwhelmed by the constant influx of information and possessions. Minimalism prompts us 
+            to strip away the non-essential, creating room for clarity, purpose, and joy. This journey isn't about sacrifice; it's about gaining freedom from the trappings of consumerism 
+            and rediscovering the essence of a fulfilling life. Join me on this exploration of minimalism as we explore practical tips, inspiring stories, and the transformative power  
+            of living with less. Let's embark on a quest to simplify our lives and cultivate a greater sense of meaning in the process.
+        </p>
+        <div class ="button" style="display: flex;">
+            <button onclick="like1()" class="btn" id="one"><i class="fa-regular fa-heart"></i></button>
+        <div id="result1" style="padding-top: 5px; font-size:25px;">
+        </div></div>
+        <h3>Comments:</h3>
+        <dl>
+            <dt>1. Quality writing.</dt>
+            <dd>- Manas Agrawal</dd>
+            <br>
+            <dt>2. Truly inspiring. Great job!</dt>
+            <dd>- Raunak Seksaria</dd>
+        </dl>
+    </div>
+    <div class="article">
+        <h2>Cricket Craze in India!</h2>
+        <p>
+            Cricket isn't a game; it's an emotion in India. From gully cricket to international arenas, the sport's fervor runs deep in every cricket-loving heart. The iconic blue jersey of 
+            the Indian cricket team symbolizes pride and passion, with players like Virat Kohli and Rohit Sharma etching their names in cricketing folklore. The IPL, a dazzling extravaganza, 
+            turns stadiums into theaters of dreams. Cricket unites a diverse nation, creating shared moments of joy and heartbreak. In every six and wicket, India's love for cricket resounds, 
+            making it an indelible part of the country's cultural DNA.
+        </p>
+        <div class ="button" style="display: flex;">
+            <button onclick="like2()" class="btn" id="two"><i class="fa-regular fa-heart"></i></button>
+        <div id="result2" style="padding-top: 5px; font-size:25px;">
+        </div></div>
+        <h3>Comments:</h3>
+        <dl>
+            <dt>1. Cricket is love <3</dt>
+            <dd>- Aryan Shrivastava</dd>
+        </dl>
+        
+    </div>
+
+
+</body>
+
+</html>
